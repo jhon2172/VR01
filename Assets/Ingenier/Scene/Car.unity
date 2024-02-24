@@ -276,6 +276,50 @@ Skybox:
   m_GameObject: {fileID: 30477636}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 9af23ba5fa5364ff598888460e0e2759, type: 2}
+--- !u!114 &30477647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30477636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &31668723
 GameObject:
   m_ObjectHideFlags: 0
@@ -10259,7 +10303,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: -3716882523517892422, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: -4490397109977459112, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   menu: {fileID: 855617630}
 --- !u!4 &1726229183
 Transform:
@@ -11975,6 +12019,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3436927050447918836}
     m_Modifications:
+    - target: {fileID: 29304935546587040, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 963534865920503432, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
@@ -12075,6 +12123,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4590685616483964418, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6773257176690579449, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
       propertyPath: m_AutoDeselect
       value: 1
@@ -12127,6 +12179,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.43
       objectReference: {fileID: 0}
+    - target: {fileID: 8650654345620415484, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12134,6 +12190,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8650654345620415480, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 30477642}
+    - targetCorrespondingSourceObject: {fileID: 8650654345620415480, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 30477647}
     - targetCorrespondingSourceObject: {fileID: 3058085061137390989, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 946664106}
@@ -15056,7 +15115,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 5315039149394352928, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 7405525937608389486, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   speedText: {fileID: 6922648}
   velocidadReduccion: 0.99
   reduccionVelocidadPorSegundo: 3
@@ -16190,7 +16249,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 9103410894892995219, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: -8737386332790145636, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   objectToTrack: {fileID: 1624333942}
 --- !u!23 &6365215905215375151
 MeshRenderer:

@@ -60,7 +60,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 5315039149394352928, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+    m_Reference: {fileID: 7405525937608389486, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   botonA: OculusTouchControllerOpenXRsecondarybutton
   botonB: OculusTouchControllerOpenXRprimarybutton
   ganchoR: OculusTouchControllerOpenXRtriggerpressed
